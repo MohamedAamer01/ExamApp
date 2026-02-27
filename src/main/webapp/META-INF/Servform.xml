@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+		version="4.0">
+
+		<!-- Définition de la servlet ServlForm -->
+		<servlet>
+			<servlet-name>ServlForm</servlet-name>
+			<servlet-class>umi.fs.servlet.ServlForm</servlet-class>
+		</servlet>
+
+		<!-- Mapping de la servlet ServlForm -->
+		<servlet-mapping>
+			<servlet-name>ServlForm</servlet-name>
+			<url-pattern>/ServlForm</url-pattern>
+		</servlet-mapping>
+
+		<!-- Définition de la servlet TraitementServlet -->
+		<servlet>
+			<servlet-name>TraitementServlet</servlet-name>
+			<servlet-class>
+				umi.fs.servlet.TraitementServlet
+			</servlet-class>
+		</servlet>
+
+		<!-- Mapping de la servlet TraitementServlet -->
+		<servlet-mapping>
+			<servlet-name>TraitementServlet</servlet-name>
+			<url-pattern>/TraitementServlet</url-pattern>
+		</servlet-mapping>
+
+	</web-app>
+</element>
