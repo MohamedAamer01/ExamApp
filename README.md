@@ -8,7 +8,7 @@ ExamApp est une plateforme permettant aux administrateurs de créer et gérer de
 
 Le projet suit une architecture MVC et utilise les technologies Java EE telles que JSP, Servlets, JPA/Hibernate et MySQL.
 
-🚀 Fonctionnalités
+🚀 Fonctionnalités 
 👨‍🏫 Administrateur
 Authentification sécurisée
 Création et gestion des examens
